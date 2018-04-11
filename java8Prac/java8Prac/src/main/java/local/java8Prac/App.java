@@ -1,8 +1,14 @@
 package local.java8Prac;
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class App {
+	public static void main(String[] args) {
+		SpringApplication.run(App.class, args);
+	}
 }

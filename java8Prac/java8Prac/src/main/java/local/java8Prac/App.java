@@ -1,9 +1,4 @@
 package local.java8Prac;
-
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
